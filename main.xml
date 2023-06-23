@@ -1,7 +1,4 @@
 <table min_lib_ver="4.5" name="test">
-	<Hooks directory="Hooks">
-		<hook file="guitweakdata.lua" source_file="lib/tweak_data/guitweakdata"/>  
-	</Hooks>
 	<Localization default="russian.txt" directory="loc">
 		<loc file="russian.txt" language="russian"/>
 		<loc file="english.txt" language="english"/>
@@ -19,7 +16,7 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<narrative contact="sova" id="test">
+	<narrative contact="custom" id="test">
 		<chain>
 			<table level_id="test" type="d" type_id="heist_type_assault"/>
 		</chain>
