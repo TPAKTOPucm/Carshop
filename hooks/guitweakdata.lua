@@ -1,4 +1,4 @@
-Hooks:PostHook( GuiTweakData, "init", "richie_contact", function(self)
+Hooks:PostHook( GuiTweakData, "init", "sova_contact", function(self)
 	local contact_data = {
 		id = "sova",
 		name_id = "contact_sova_name",
