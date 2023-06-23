@@ -1,8 +1,12 @@
 <table min_lib_ver="4.5" name="test">
+	<Hooks directory="Hooks">
+		<hook file="guitweakdata.lua" source_file="lib/tweak_data/guitweakdata"/>  
+	</Hooks>
 	<Localization default="russian.txt" directory="loc">
 		<loc file="russian.txt" language="russian"/>
 		<loc file="english.txt" language="english"/>
 	</Localization>
+	<contact assets_gui="guis/mission_briefing/preload_contact_bain" desc_id="contact_sova_desc" id="sova" name_id="contact_sova_name" package="packages/contact_bain"/>
 	<level ai_group_type="america" briefing_dialog="Briefing dialog" ghost_bonus="0.1" id="test" intro_event="Intro Event" max_bags="54" player_style="generic" team_ai_off="false">
 		<assets/>
 		<outro_event>
@@ -15,7 +19,7 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<narrative contact="custom" id="test">
+	<narrative contact="sova" id="test">
 		<chain>
 			<table level_id="test" type="d" type_id="heist_type_assault"/>
 		</chain>
