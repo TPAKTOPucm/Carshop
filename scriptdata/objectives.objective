@@ -1,1 +1,5 @@
-<table></table>
+<table>
+	<objective description="obj_enter_desc" id="obj_enter" text="obj_enter"/>
+	<objective amount="1" description="obj_secure_bags_desc" id="obj_secure_bags" text="obj_secure_bags"/>
+	<objective description="obj_escape_desc" id="obj_escape" text="obj_escape"/>
+</table>
