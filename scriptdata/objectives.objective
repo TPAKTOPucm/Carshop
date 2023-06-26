@@ -2,4 +2,6 @@
 	<objective description="obj_enter_desc" id="obj_enter" text="obj_enter"/>
 	<objective amount="1" description="obj_secure_bags_desc" id="obj_secure_bags" text="obj_secure_bags"/>
 	<objective description="obj_escape_desc" id="obj_escape" text="obj_escape"/>
+	<objective description="half_vine_desc" id="half_vine" text="half_vine"/>
+	<objective description="vine_desc" id="vine" text="vine"/>
 </table>
