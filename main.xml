@@ -9,7 +9,13 @@
 		<sounds directory="assets/vo">
 				<sound id="firstbag" path="firstbag.ogg" subtitle_id="firstbag"/>
 				<sound id="start" path="start.ogg" subtitle_id="start"/>
-				<sound id="killEblan" path="killeblan.ogg" subtitle_id="killEblan"/>
+				<sound id="killEblan" path="killEblan.ogg" subtitle_id="killEblan"/>
+				<sound id="you_can_leave" path="you_can_leave.ogg" subtitle_id="you_can_leave"/>
+				<sound id="half_vine" path="half_vine.ogg" subtitle_id="half_vine_sub"/>
+				<sound id="pickup_vine" path="pickup_vine.ogg" subtitle_id="pickup_vine_sub"/>
+				<sound id="no_vine" path="no_vine.ogg" subtitle_id="no_vine"/>
+				<sound id="last_coke" path="last_coke.ogg" subtitle_id="last_coke"/>
+				<sound id="second_room" path="second_room.ogg" subtitle_id="second_room"/>
 		</sounds>
 		<assets/>
 		<outro_event>
